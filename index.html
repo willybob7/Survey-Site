@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body>
+<div id="main" class="container-fluid jumbotron">
+  <h1 id="title" class="text-center">Survey Form</h1>
+  <div class="container jumbotron form">
+    <p id="description" class="text-center">Tell me some stuff about yourself, because I'm paid to care.</p>
+    <form id="survey-form" action="" method="get" class="text-center">
+      <div class="row">
+        <label id="name-label" for="name" class=" col col-md-12 text-right">Name:</label>
+        <input id="name" type="text" Placeholder="Your name goes here" required class="col col-md-12 text-left">
+        <div class="col-1">
+        </div>
+      </div><br>
+      <label id="email-label" for="email">Email:</label>
+
+      <input id="email" type="email" Placeholder="So we can send you spam" required><br>
+      <label id="number-label" for="number">Age:</label><input id="number" type="number" min="0" max="100" Placeholder="So we know what to send you"><br>
+      <label id="dropdown-label" for="dropdown">Species:</label>
+      <select id="dropdown">
+        <option value="Anzati">Anzati</option>
+        <option value="Ewok">Ewok</option>
+        <option value="Gungan">Gungan</option>
+        <option value="Jawa">Jawa</option>
+        <option value="Rodian">Rodian</option>
+        <option value="Selonian">Selonian</option>
+        <option value="Togorian">Togorian</option>
+        <option value="Wookie">Wookie</option>
+        <option value="Verpine">Verpine</option>
+        <option value="Zeltron">Zeltron</option>
+        <option value="measly Human">measly Human</option>
+        </select>
+      <br>
+      <fieldset>
+        <legend>Political Affiliation:</legend>
+        <ul>
+          <label>
+          <input type="radio" name="Political Affiliation" value="Imperial">Imperial</label>
+          <label>
+          <input type="radio" name="Political Affiliation" value="Rebel">Rebel</label>
+          <label>
+          <input type="radio" name="Political Affiliation" value="Other">Other</label>
+          <label>
+          <input type="radio" name="Political Affiliation" value="None">None</label>
+          </label>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Choose your interests:</legend>
+
+        <input type="checkbox" id="Armorsmithing" name="interest" value="Armorsmithing">
+        <label for="Armorsmithing">Armorsmithing</label>
+
+        <input type="checkbox" id="music" name="interest" value="music">
+        <label for="music">Music</label>
+
+        <input type="checkbox" id="Bio-Engineering" name="interest" value="Bio-Engineering">
+        <label for="Bio-Engineering">Bio-Engineering</label>
+
+        <input type="checkbox" id="Bounty Hunting" name="interest" value="Bounty Hunting">
+        <label for="Bounty Hunting">Bounty Hunting</label>
+
+        <input type="checkbox" id="Creature Handling" name="interest" value="Creature Handling">
+        <label for="Creature Handling">Creature Handling</label>
+
+        <input type="checkbox" id="Droid Engineer" name="interest" value="Droid Engineer">
+        <label for="Droid Engineer">Droid Engineer</label>
+
+        <input type="checkbox" id="Marksman" name="interest" value="Marksman">
+        <label for="Marksman">Marksman</label>
+
+        <input type="checkbox" id="Merchant" name="interest" value="Merchant">
+        <label for="Merchant">Marchant</label>
+      </fieldset>
+      <div class="text-area">
+        <div><label>Tell us more stuff to not care about...please.</label></div>
+        <textarea>
+      </textarea>
+      </div>
+
+      <input id="submit" type="submit" value="Submit">
+
+    </form>
+  </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</html>
