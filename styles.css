@@ -3,23 +3,20 @@
   height: 100%;
 }
 #title {
- font-size: 40px;
+ font-size: 2em;
 }
 .form {
  background-color: hsl(0, 0%, 95%);
 }
-#number{
- width: 210px
+#description{
+ font-size: 1em;
 }
-.left {
- display: inline-block;
- text-align:
+textarea {
+  width: 75%;
+  height: 200px;
 }
-.labels {
- display: inline-block;
- text-align: right;
- width: 40%;
- padding: 5px;
- vertical-align: top;
- margin-top: 10px;
-}
+/* #name-label, #email-label, #number-label, #dropdown-label {
+margin-bottom: 10px;
+padding: 10px;
+
+} */
